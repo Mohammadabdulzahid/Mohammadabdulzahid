@@ -1,0 +1,94 @@
+body{font-family: 'Poppins', sans-serif;}
+.Football{
+    background-color: blue;
+
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: blue;
+}
+h1{
+    width: 485px;
+    height: 230px;
+    color: white;
+    font-size: 64px;
+ }
+ /*button*/
+.Click-Me{
+    width: 168px;
+    height: 44px;
+    color: tomato;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-property: all;
+}
+ section{
+     display: flex;
+ }
+ .image-1 img{
+    width: 556.01px;
+    height: 438px;
+    transition: 2px;;
+    
+}
+.All-players{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    
+    }
+.Players1{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    padding: 15px;
+}
+.players{
+    justify-content: center;
+}
+
+.Players1 img{
+    width: 300px;
+    height: 256px;
+}
+
+/*footer*/
+
+footer img{
+    width: 483.87px; 
+    height: 110px;
+}
+.socila-icons img{
+    height: 32px;
+    width: 32px;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
+
+/*responsive*/
+@media only screen and (max-width: 688px){
+
+.grid-section{
+    grid-template-columns: repeat(1,1fr);
+}
+.All-players{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.image-1 img{
+    width: 329px;
+    height: 259.17px;
+}
+h1{
+    width: 290px;
+    font-size: 32px;
+ }
+ footer img{
+    width: 270px; 
+    height: 63px;
+}
+    
+}
